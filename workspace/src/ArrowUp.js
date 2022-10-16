@@ -1,0 +1,16 @@
+import React from 'react'
+
+export function ArrowUp(props) {
+	return (
+		<svg
+			xmlnsXlink="http://www.w3.org/1999/xlink"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 18 18"
+			width={props.width || 18}
+			{...props}
+		>
+			<rect fill="currentColor" opacity={0} />
+			<path d="M12,8v8.5a.5.5,0,0,1-.5.5h-5a.5.5,0,0,1-.5-.5V8H2.5035a.25.25,0,0,1-.177-.427L9,.9l6.673,6.673A.25.25,0,0,1,15.496,8Z" />
+		</svg>
+	)
+}

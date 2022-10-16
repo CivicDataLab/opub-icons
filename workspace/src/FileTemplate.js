@@ -1,0 +1,17 @@
+import React from 'react'
+
+export function FileTemplate(props) {
+	return (
+		<svg
+			xmlnsXlink="http://www.w3.org/1999/xlink"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 18 18"
+			width={props.width || 18}
+			{...props}
+		>
+			<rect fill="currentColor" opacity={0} />
+			<polygon points="10 1 10 6 15 6 10 1" />
+			<path d="M9.5,7A.5.5,0,0,1,9,6.5V1H3.5a.5.5,0,0,0-.5.5v15a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5V7ZM7,14.5a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1-.5-.5v-2a.5.5,0,0,1,.5-.5h2a.5.5,0,0,1,.5.5Zm0-4a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1-.5-.5v-2A.5.5,0,0,1,4.5,8h2a.5.5,0,0,1,.5.5Zm0-4a.5.5,0,0,1-.5.5h-2A.5.5,0,0,1,4,6.5v-2A.5.5,0,0,1,4.5,4h2a.5.5,0,0,1,.5.5Z" />
+		</svg>
+	)
+}

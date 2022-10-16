@@ -1,0 +1,18 @@
+import React from 'react'
+
+export function Filmroll(props) {
+	return (
+		<svg
+			xmlnsXlink="http://www.w3.org/1999/xlink"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 18 18"
+			width={props.width || 18}
+			{...props}
+		>
+			<rect fill="currentColor" opacity={0} />
+			<rect height={11} rx="0.5" width={7} x={2} y={4} />
+			<path d="M13,12a2.5075,2.5075,0,0,1,2.5-2.5H16a1,1,0,0,0,1-1V6a1,1,0,0,0-1-1H10v9h1.5A1.5,1.5,0,0,0,13,12.5Z" />
+			<path d="M7,3V2a.5.5,0,0,0-.5-.5h-2A.5.5,0,0,0,4,2V3Z" />
+		</svg>
+	)
+}

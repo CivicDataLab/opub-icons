@@ -1,0 +1,20 @@
+import React from 'react'
+
+export function Homepage(props) {
+	return (
+		<svg
+			xmlnsXlink="http://www.w3.org/1999/xlink"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 18 18"
+			width={props.width || 18}
+			{...props}
+		>
+			<rect fill="currentColor" opacity={0} />
+			<rect height={2} width={6} x={3} y={11} />
+			<rect height={2} width={2} x={10} y={11} />
+			<rect height={2} width={2} x={13} y={11} />
+			<rect height={3} width={12} x={3} y={7} />
+			<path d="M16.5,2H1.5a.5.5,0,0,0-.5.5v12a.5.5,0,0,0,.5.5h15a.5.5,0,0,0,.5-.5V2.5A.5.5,0,0,0,16.5,2ZM2,14V5H16v9Z" />
+		</svg>
+	)
+}

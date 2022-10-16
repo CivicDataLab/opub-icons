@@ -1,0 +1,16 @@
+import React from 'react'
+
+export function TextStroke(props) {
+	return (
+		<svg
+			xmlnsXlink="http://www.w3.org/1999/xlink"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 18 18"
+			width={props.width || 18}
+			{...props}
+		>
+			<rect fill="currentColor" opacity={0} />
+			<path d="M12.5,16h-7a.5.5,0,0,1-.5-.5v-2a.5.5,0,0,1,.5-.5H7V5H5V6.5a.5.5,0,0,1-.5.5h-2A.5.5,0,0,1,2,6.5v-4A.5.5,0,0,1,2.5,2h13a.5.5,0,0,1,.5.5V6.4865a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1-.5-.5V5H11v8h1.5a.5.5,0,0,1,.5.5v2A.5.5,0,0,1,12.5,16ZM6,14v1h6V14H10V4h4V6h1V2.98H3V6H4V4H8V14ZM3,2.5v0Z" />
+		</svg>
+	)
+}

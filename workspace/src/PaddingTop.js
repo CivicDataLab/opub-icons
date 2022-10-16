@@ -1,0 +1,17 @@
+import React from 'react'
+
+export function PaddingTop(props) {
+	return (
+		<svg
+			xmlnsXlink="http://www.w3.org/1999/xlink"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 18 18"
+			width={props.width || 18}
+			{...props}
+		>
+			<rect fill="currentColor" opacity={0} />
+			<path d="M2,15.5V1.5H16v14ZM17,16V1a.5.5,0,0,0-.5-.5H1.5A.5.5,0,0,0,1,1V16a.5.5,0,0,0,.5.5h15A.5.5,0,0,0,17,16Z" />
+			<rect height={4} rx="0.25" width={12} x={3} y="2.5" />
+		</svg>
+	)
+}

@@ -1,0 +1,16 @@
+import React from 'react'
+
+export function RailLeft(props) {
+	return (
+		<svg
+			xmlnsXlink="http://www.w3.org/1999/xlink"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 18 18"
+			width={props.width || 18}
+			{...props}
+		>
+			<rect fill="currentColor" opacity={0} />
+			<path d="M17.4375,2H.5625A.573.573,0,0,0,0,2.58331V15.4165A.573.573,0,0,0,.56231,16H17.4375A.573.573,0,0,0,18,15.41669V2.5835A.573.573,0,0,0,17.43769,2ZM4.65,12H1.35V11h3.3Zm0-3H1.35V8h3.3Zm0-3H1.35V5h3.3ZM17,15H6V5H17Z" />
+		</svg>
+	)
+}

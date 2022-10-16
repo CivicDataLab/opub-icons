@@ -1,0 +1,24 @@
+import React from 'react'
+
+export function GraphBarHorizontalStacked(props) {
+	return (
+		<svg
+			xmlnsXlink="http://www.w3.org/1999/xlink"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 18 18"
+			width={props.width || 18}
+			{...props}
+		>
+			<rect fill="currentColor" opacity={0} />
+			<rect height={17} rx="0.25" width={1} x={1} y={1} />
+			<rect height={3} width={3} x={3} y={10} />
+			<rect height={3} width={7} x={3} y={2} />
+			<rect height={3} width={2} x={3} y={14} />
+			<rect height={3} width={5} x={3} y={6} />
+			<path d="M12.5,6H9V9h3.5a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,12.5,6Z" />
+			<path d="M16.5,2H11V5h5.5a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,16.5,2Z" />
+			<path d="M8.5,10H7v3H8.5a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,8.5,10Z" />
+			<path d="M7.5,14H6v3H7.5a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,7.5,14Z" />
+		</svg>
+	)
+}

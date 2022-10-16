@@ -1,0 +1,16 @@
+import React from 'react'
+
+export function Switch(props) {
+	return (
+		<svg
+			xmlnsXlink="http://www.w3.org/1999/xlink"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 18 18"
+			width={props.width || 18}
+			{...props}
+		>
+			<rect fill="currentColor" opacity={0} />
+			<path d="M18,9,13.427,4.427A.25.25,0,0,0,13,4.6035V7H5V4.6035a.25.25,0,0,0-.427-.177L0,9l4.573,4.573A.25.25,0,0,0,5,13.3965V11h8v2.3965a.25.25,0,0,0,.427.177Z" />
+		</svg>
+	)
+}

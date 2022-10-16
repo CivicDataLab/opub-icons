@@ -1,0 +1,34 @@
+import React from 'react'
+
+export function Offer(props) {
+	return (
+		<svg
+			xmlnsXlink="http://www.w3.org/1999/xlink"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 18 18"
+			width={props.width || 18}
+			{...props}
+		>
+			<rect fill="currentColor" opacity={0} />
+			<path d="M9.13,5.4555l.9965,2.614,2.8145.132a.1165.1165,0,0,1,.068.2075l-2.2,1.75.7445,2.691a.1175.1175,0,0,1-.178.128L9.02,11.4465l-2.3555,1.534a.1175.1175,0,0,1-.178-.128l.743-2.6955-2.2-1.75A.1165.1165,0,0,1,5.1,8.2l2.8145-.132L8.911,5.454a.118.118,0,0,1,.219.0015Z" />
+			<path d="M1,14H0v1a1,1,0,0,0,1,1H3V15H1Z" />
+			<rect height={1} width={2} x={3} y={2} />
+			<rect height={1} width={2} x={4} y={15} />
+			<rect height={2} width={1} y={5} />
+			<path d="M1,3H2V2H1A1,1,0,0,0,0,3V4H1Z" />
+			<rect height={2} width={1} y={8} />
+			<rect height={2} width={1} y={11} />
+			<rect height={2} width={1} x={17} y={5} />
+			<rect height={2} width={1} x={17} y={8} />
+			<rect height={2} width={1} x={17} y={11} />
+			<rect height={1} width={2} x={7} y={15} />
+			<rect height={1} width={2} x={6} y={2} />
+			<path d="M17,2H15V3h2V4h1V3A1,1,0,0,0,17,2Z" />
+			<rect height={1} width={2} x={9} y={2} />
+			<path d="M17,15H16v1h1a1,1,0,0,0,1-1V14H17Z" />
+			<rect height={1} width={2} x={13} y={15} />
+			<rect height={1} width={2} x={10} y={15} />
+			<rect height={1} width={2} x={12} y={2} />
+		</svg>
+	)
+}
