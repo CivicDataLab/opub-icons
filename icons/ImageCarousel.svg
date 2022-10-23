@@ -1,0 +1,10 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18">
+  <rect fill="currentColor" opacity="0" />
+  <rect height="11" rx="0.5" width="12" x="3" y="1" />
+  <path d="M2,11H.5a.5.5,0,0,1-.5-.5v-7A.5.5,0,0,1,.5,3H2Z" />
+  <path d="M17.5,11H16V3h1.5a.5.5,0,0,1,.5.5v7A.5.5,0,0,1,17.5,11Z" />
+  <circle cx="4" cy="15" r="0.7" />
+  <circle cx="7" cy="15" r="1.05" />
+  <circle cx="10" cy="15" r="0.7" />
+  <circle cx="13" cy="15" r="0.7" />
+</svg>

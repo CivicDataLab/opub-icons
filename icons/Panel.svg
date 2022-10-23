@@ -1,0 +1,7 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18">
+  <rect fill="currentColor" opacity="0" />
+  <rect height="1.5" rx="0.5" width="8" x="5" y="15" />
+  <rect height="1.5" rx="0.5" width="8" x="5" y="4" />
+  <rect height="1.5" rx="0.5" width="8" x="5" y="7" />
+  <path d="M15.25,1H2.75A.75.75,0,0,0,2,1.75V17H3V13H15v4h1V1.75A.75.75,0,0,0,15.25,1ZM15,11H3V2H15Z" />
+</svg>
