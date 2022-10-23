@@ -1,8 +1,8 @@
 {
   "name": "@opub-icons/ui",
   "description": "React wrapper for spectrum ui icons",
-  "version": "0.8.01",
-  "license": "MIT",
+  "version": "0.9.0",
+  "license": "Apache-2.0",
   "homepage": "https://github.com/CivicDataLab/opub-icons#readme",
   "bugs": {
     "url": "https://github.com/CivicDataLab/opub-icons/issues"
@@ -38,7 +38,9 @@
     "icons",
     "adobe-spectrum",
     "svg",
-    "react"
+    "react",
+    "opub",
+    "opub-icons"
   ],
   "publishConfig": {
     "access": "public"
