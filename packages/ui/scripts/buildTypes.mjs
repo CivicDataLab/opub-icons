@@ -33,7 +33,7 @@ export type Icon = React.FC<SVGIconProps>;
 // Generated icons
 `;
 
-const ICONS_DIR = path.resolve(currentDir, '../../../icons/workflow');
+const ICONS_DIR = path.resolve(currentDir, '../../../icons/ui');
 const TYPES_FILE = 'opub-icons.d.ts';
 
 resetFile(TYPES_FILE, srcDirectory);

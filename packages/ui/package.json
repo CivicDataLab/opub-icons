@@ -1,0 +1,60 @@
+{
+  "name": "@opub-icons/ui",
+  "description": "React wrapper for spectrum ui icons",
+  "version": "0.8.65",
+  "license": "MIT",
+  "homepage": "https://github.com/CivicDataLab/opub-icons#readme",
+  "bugs": {
+    "url": "https://github.com/CivicDataLab/opub-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CivicDataLab/opub-icons.git",
+    "directory": "packages/ui"
+  },
+  "author": "CivicDataLab",
+  "amdName": "@opub-icons/ui",
+  "main": "dist/cjs/opub-icons.js",
+  "main:umd": "dist/umd/opub-icons.js",
+  "module": "dist/esm/opub-icons.js",
+  "unpkg": "dist/umd/opub-icons.min.js",
+  "typings": "dist/opub-icons.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pnpm clean && pnpm build:icons && pnpm build:es && pnpm build:types && pnpm build:bundles",
+    "clean": "rm -rf dist && rm -rf stats && rm -rf ./src/icons/*.js",
+    "build:icons": "node ../../scripts/buildIcons.mjs --output=./src --templateSrc=./scripts/exportTemplate.mjs --renderUniqueKey",
+    "build:es": "babel src -d dist/esm",
+    "build:types": "node ./scripts/buildTypes.mjs",
+    "build:bundles": "rollup -c ./rollup.config.js",
+    "test": "jest",
+    "version": "pnpm version --git-tag-version=false"
+  },
+  "keywords": [
+    "spectrum",
+    "icons",
+    "adobe-spectrum",
+    "svg",
+    "react"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@testing-library/react": "^11.2.6",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-react-app": "^10.0.0",
+    "jest": "^26.6.3",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.5.1 || ^17.0.0 || ^18.0.0"
+  }
+}
