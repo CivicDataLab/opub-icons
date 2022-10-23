@@ -2,17 +2,17 @@ import fs from 'fs';
 import path from 'path';
 import getArgumentOptions from 'minimist'; // eslint-disable-line import/no-extraneous-dependencies
 
-import renderIconsObject from './render/renderIconsObject.mjs';
-import generateIconFiles from './building/generateIconFiles.mjs';
-import generateExportsFile from './building/generateExportsFile.mjs';
+import renderIconsObject from '../../../scripts/render/renderIconsObject.mjs';
+import generateIconFiles from '../../../scripts/building/generateIconFiles.mjs';
+import generateExportsFile from '../../../scripts/building/generateExportsFile.mjs';
 
-import { readSvgDirectory, getCurrentDirPath } from './helpers.mjs';
+import { readSvgDirectory, getCurrentDirPath } from '../../../scripts/helpers.mjs';
 
 const cliArguments = getArgumentOptions(process.argv.slice(2));
 
 const currentDir = getCurrentDirPath(import.meta.url);
 
-const ICONS_DIR = path.resolve(currentDir, '../icons');
+const ICONS_DIR = path.resolve(currentDir, '../../../icons/workflow');
 const OUTPUT_DIR = path.resolve(process.cwd(), cliArguments.output || '../build');
 
 if (!fs.existsSync(OUTPUT_DIR)) {
