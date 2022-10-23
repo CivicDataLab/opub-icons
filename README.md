@@ -35,6 +35,10 @@ Yes! The SVG to JS tranformation flow is inspired by amazing folks at [Luicde](h
 
 There are 901 workflow icons and 64 UI icons. [Read more about them](https://spectrum.adobe.com/page/iconography/)
 
+`npm install @opub-icons/workflow` - for workflow icons
+
+`npm install @opub-icons/ui` - for ui icons 
+
 <br>
 
 ## Licening
