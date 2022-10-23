@@ -1,6 +1,4 @@
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18">
   <rect fill="currentColor" opacity="0" />
-  <g data-name="i c o n s" id="i_c_o_n_s">
-    <circle cx="9" cy="9" r="8" />
-  </g>
+  <circle cx="9" cy="9" r="8" />
 </svg>
