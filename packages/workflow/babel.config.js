@@ -6,14 +6,14 @@ module.exports = {
       '@babel/env',
       {
         loose: true,
-        modules: false,
-      },
-    ],
+        modules: false
+      }
+    ]
   ],
   env: {
     ...mainConfig.env,
     test: {
-      presets: ['react-app'],
-    },
-  },
+      presets: ['react-app']
+    }
+  }
 };

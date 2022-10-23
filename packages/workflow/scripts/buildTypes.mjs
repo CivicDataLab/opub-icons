@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import path from 'path';
 import {
   appendFile,
@@ -8,6 +10,7 @@ import {
   getCurrentDirPath
 } from '../../../scripts/helpers.mjs';
 
+//
 const currentDir = getCurrentDirPath(import.meta.url);
 const srcDirectory = path.join(currentDir, '../dist');
 

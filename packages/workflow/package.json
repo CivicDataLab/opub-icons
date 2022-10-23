@@ -13,7 +13,11 @@
     "directory": "packages/workflow"
   },
   "author": "CivicDataLab",
+  "amdName": "@opub-icons/workflow",
+  "main": "dist/cjs/opub-icons.js",
+  "main:umd": "dist/umd/opub-icons.js",
   "module": "dist/esm/opub-icons.js",
+  "unpkg": "dist/umd/opub-icons.min.js",
   "typings": "dist/opub-icons.d.ts",
   "sideEffects": false,
   "files": [
