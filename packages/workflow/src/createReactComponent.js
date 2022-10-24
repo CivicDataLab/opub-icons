@@ -22,7 +22,6 @@ export default (iconName, iconNode) => {
         ...defaultAttributes,
         fill,
         width: size,
-        height: size,
         className: `opub-icons opub-icons-${toKebabCase(iconName)}`,
         ...rest
       },
