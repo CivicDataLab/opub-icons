@@ -14,12 +14,13 @@ import defaultAttributes from './defaultAttributes';
 export const toKebabCase = string => string.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
 
 export default (iconName, iconNode) => {
-  const Component = forwardRef(({ color = 'currentColor', size = 18, children, ...rest }, ref) =>
+  const Component = forwardRef(({ fill = 'currentColor', size = 18, children, ...rest }, ref) =>
     createElement(
       'svg',
       {
         ref,
         ...defaultAttributes,
+        fill,
         width: size,
         height: size,
         className: `opub-icons opub-icons-${toKebabCase(iconName)}`,
@@ -30,9 +31,8 @@ export default (iconName, iconNode) => {
   );
 
   Component.propTypes = {
-    color: PropTypes.string,
-    size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    strokeWidth: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+    fill: PropTypes.string,
+    size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
   };
 
   Component.displayName = `${iconName}`;
