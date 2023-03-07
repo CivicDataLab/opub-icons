@@ -22,8 +22,8 @@ export default (iconName, iconNode) => {
         ref,
         ...defaultAttributes,
         fill,
-        width: size || iconNode[1][1].width,
-        viewBox: `0 0 ${iconNode[1][1].width} ${iconNode[1][1].width}`,
+        width: size || iconNode[0][1].width,
+        viewBox: `0 0 ${iconNode[0][1].width} ${iconNode[0][1].width}`,
         className: `opub-icons opub-icons-${toKebabCase(iconName)}`,
         ...rest
       },
