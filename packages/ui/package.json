@@ -1,7 +1,7 @@
 {
   "name": "@opub-icons/ui",
   "description": "React wrapper for spectrum ui icons",
-  "version": "0.9.02",
+  "version": "0.9.04",
   "license": "Apache-2.0",
   "homepage": "https://github.com/CivicDataLab/opub-icons#readme",
   "bugs": {
